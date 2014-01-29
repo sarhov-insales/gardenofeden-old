@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Blank Insales Template</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/nivo-slider.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script>
+  window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')
+  </script>
+  <script src="js/libs/modernizr.min.js"></script>
+  <script src="js/libs/slider.js"></script>
+  <script src="js/libs/carousel.js"></script>
+
+  <script type="text/javascript">
+  $(window).load(function() {
+    $('#slider1, #slider2').nivoSlider();
+  });
+  </script>
+
+  <script>
+  $(document).ready(function() {
+    // the tabs
+    var tabs = $('.tab-box_ > .tab-box-item').addClass('hidden');
+    $('.tab-item-open:first-child').addClass('selected');
+    $('.tab-box_ >.tab-box-item:first-child').addClass('active');
+    $('.tab-item-open').click(function() {
+      var activetab = $(this).attr('href');
+      $(this).addClass('selected').siblings().removeClass('selected');
+      tabs.addClass('hidden').removeClass('active');
+      $(activetab).addClass('active').removeClass('hidden');
+      return false;
+    });
+  });
+  </script>
+
+  <script type="text/javascript">
+  $(document).ready(function() {
+
+    $('#carousel1').carouFredSel({
+      items: 4,
+      direction: "left",
+      auto: false,
+      prev: '#prev1',
+      next: '#next1'
+
+    });
+
+    $('#news-carousel').carouFredSel({
+      items: 1,
+      direction: "up",
+      auto: false,
+      prev: '#news-prev',
+      next: '#news-next',
+
+    });
+
+    $('#carousel2').carouFredSel({
+      items: 4,
+      direction: "left",
+      auto: false,
+      prev: '#prev2',
+      next: '#next2'
+
+    });
+
+    $('#carousel3').carouFredSel({
+      items: 4,
+      direction: "left",
+      auto: false,
+      prev: '#prev3',
+      next: '#next3'
+
+    });
+
+
+  });
+  </script>
+
+
+</head>
+
+<body class="main-page">
+
+  <div class="row fixed top-head cf">
+    <div class="gl-inner cf">
+      <a href="tel:+8 8005446776" class="site-phone site-phone-head fl">8 800 544-67-76 </a> 
+      <a href="#" class="call_order fl" id="mod-fast-call-link">заказать звонок</a>
+      <div class="cart_ fr"><a class="cart-link" href="cart.html">Корзина<span class="cart_items_count">4</span></a>
+      </div>
+      <div class="search_ fr">
+        <div class="search_wrap rel">
+          <input type="text" class="input-txt top-search" placeholder="поиск">
+          <button type="submit" class="search-submit abs"></button>
+        </div>
+        <!-- search_wrap -->
+      </div>
+      <!-- search_ -->
+    </div>
+  </div>
+  <!-- top-head  -->
+
+  <div class="site-header gl-inner abs">
+    <h1 class="site-name row"><a href="" class="site-name">лучий выбор мебели для дома и сада</a>
+    </h1>
+    <div class="site-links gl-inner tb">
+      <a href="" class="site-link-item row_3">Аренда мебели</a>
+      <a href="" class="site-link-item row_3">Интерьеная мебель</a>
+      <a href="" class="site-link-item row_3">Экстерьная мебель</a>
+      <a href="" class="site-link-item row_3">Покупка в кредит</a>
+    </div>
+  </div>
+  <!-- site-header -->
+
+  <div class="row slider_">
+    <div class="row_5 rel slider_1">
+      <div id="slider1" class="nivoSlider">
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/1/" alt="" class="slide-img">
+        </a>
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/2/" alt="" class="slide-img">
+        </a>
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/3/" alt="" class="slide-img">
+        </a>
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/4/" alt="" class="slide-img">
+        </a>
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/5/" alt="" class="slide-img">
+        </a>
+      </div>
+    </div>
+    <div class="row_5 rel slider_2">
+      <div id="slider2" class="nivoSlider">
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/6/" alt="" class="slide-img">
+        </a>
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/7/" alt="" class="slide-img">
+        </a>
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/8/" alt="" class="slide-img">
+        </a>
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/9/" alt="" class="slide-img">
+        </a>
+        <a href="" class="slide-link">
+          <img src="http://lorempixel.com/700/700/sports/10/" alt="" class="slide-img">
+        </a>
+
+      </div>
+    </div>
+  </div>
+  <!-- slider_ -->
+
+  <div class="row padded get-discount_ cf">
+    <section class="gl-inner cf">
+      <div class="fl get-discount-text">
+        Запишитесь на встречу с нашим менеджером и получите скидку 10%
+      </div>
+
+      <div class="fr get-form_">
+        <form action="">
+          <input type="text" class="get-discount-input" placeholder="Имя">
+          <input type="tel" class="get-discount-input" placeholder="Телефон">
+          <button class="discount-submit button1">Записаться</button>
+        </form>
+
+      </div>
+      <!-- get-form -->
+    </section>
+  </div>
+  <!-- get-discount_ -->
+
+  <div class="row info-boxes_ padded">
+    <section class="gl-inner info-boxes">
+      <div class="row_5 info-box ">
+        <h2 class="info-box-title gl-title  smooth">Домашний набор мебели</h2>
+        <p class="info-box-desc smooth">Каркас дивана — это спроектированная определённым образом конструкция, которая принимают основную часть нагрузки при эксплуатации изделия.</p>
+      </div>
+      <div class="row_5 info-box fr">
+        <h2 class="info-box-title gl-title smooth">Домашний набор мебели</h2>
+        <p class="info-box-desc smooth">Каркас дивана — это спроектированная определённым образом конструкция, которая принимают основную часть нагрузки при эксплуатации изделия.</p>
+      </div>
+    </section>
+  </div>
+  <!-- info-box_ -->
+
+  <div class="row item-box-tabs_">
+    <section class="gl-inner item-box-tabs" id>
+
+      <div class="tab-items row">
+        <a href="#tab1" class="tab-item-open fl">Новинки</a>
+        <a href="#tab2" class="tab-item-open fl">Распродажа</a>
+        <a href="#tab3" class="tab-item-open fl">Хиты продаж</a>
+      </div>
+
+      <div class="tab-box_ rel">
+
+        <section class="tab-box-item rel" id="tab1">
+          <a href="#" class="next-prev prev abs" id="prev1">prev</a>
+          <a href="#" class="next-prev  next abs" id="next1">next</a>
+          <div class="item-box-carousel" id="carousel1">
+
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+          </div>
+          <!-- carousel -->
+        </section>
+        <!-- tab-box-item -->
+
+        <section class="tab-box-item rel" id="tab2">
+          <a href="#" class="next-prev prev abs" id="prev2">prev</a>
+          <a href="#" class="next-prev  next abs" id="next2">next</a>
+
+          <div class="item-box-carousel" id="carousel2">
+
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+          </div>
+          <!-- carousel -->
+
+
+        </section>
+        <!-- tab-box-item -->
+
+
+
+        <section class="tab-box-item rel" id="tab3">
+          <a href="#" class="next-prev prev abs" id="prev3">prev</a>
+          <a href="#" class="next-prev  next abs" id="next3">next</a>
+
+          <div class="item-box-carousel" id="carousel3">
+
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+            <div class="tab-box item-box">
+              <div class="item-box-info">
+                <a href="" class="item-box-img-link rel">
+                  <img src="images/item-box-img.jpg" alt="" class="item-box-img">
+                </a>
+              </div>
+              <div class="item-box-foot">
+                <span class="item-box-price">24550 Руб</span>
+              </div>
+            </div>
+            <!-- item-box -->
+          </div>
+          <!-- carousel -->
+
+
+        </section>
+        <!-- tab-box-item -->
+      </div>
+      <!-- tab-box_ -->
+    </section>
+  </div>
+  <!-- item-box-tabs -->
+
+  <div class="row news-boxes_">
+    <section class="gl-inner cf news-boxes cf rel">
+      <h3 class="news-box-title gl-title box-title smooth">
+        <a class="news-box-title-link box-title-link">Блог</a>
+      </h3> 
+      <a href="#" id="news-prev" class="next-prev prev abs">Назад</a>
+        <a href="#" id="news-next" class="next-prev next abs">Вперед</a>
+      <div id="news-carousel" class="news-boxes-carousel rel">
+       
+        <article class="news-box cf row">
+          <div class="row_5 news-box-img">
+            <a href="article.html" class="news-box-img-link" style="background:url('images/blog-img.png') center center/cover no-repeat"></a>
+          </div>
+          <div class="row_5 fr news-box-info">
+            <h1 class="news-box-article-title ">
+              <a class="box-article-title-link smooth gl-title">Покупка дивана для дачи</a>
+            </h1>
+            <p class="news-box-desc smooth">Основным настилочным материалом при изготовлении мягкого элемента является пенополиуретан (ППУ), который имеет разную плотность и рассчитан на разные нагрузки. Разные марки ППУ применяются в разных частях дивана, например: белый пенополиуретан применяют для</p>
+          </div>
+        </article>
+        <!-- news-box -->
+
+        <article class="news-box cf row">
+          <div class="row_5 news-box-img">
+            <a href="article.html" class="news-box-img-link" style="background:url('images/blog-img.png') center center/cover no-repeat"></a>
+          </div>
+          <div class="row_5 fr news-box-info">
+            <h1 class="news-box-article-title ">
+              <a class="box-article-title-link smooth gl-title">Покупка дивана для дачи</a>
+            </h1>
+            <p class="news-box-desc smooth">Основным настилочным материалом при изготовлении мягкого элемента является пенополиуретан (ППУ), который имеет разную плотность и рассчитан на разные нагрузки. Разные марки ППУ применяются в разных частях дивана, например: белый пенополиуретан применяют для</p>
+          </div>
+        </article>
+        <!-- news-box -->
+
+        <article class="news-box cf row">
+          <div class="row_5 news-box-img">
+            <a href="article.html" class="news-box-img-link" style="background:url('images/blog-img.png') center center/cover no-repeat"></a>
+          </div>
+          <div class="row_5 fr news-box-info">
+            <h1 class="news-box-article-title ">
+              <a class="box-article-title-link smooth gl-title">Покупка дивана для дачи</a>
+            </h1>
+            <p class="news-box-desc smooth">Основным настилочным материалом при изготовлении мягкого элемента является пенополиуретан (ППУ), который имеет разную плотность и рассчитан на разные нагрузки. Разные марки ППУ применяются в разных частях дивана, например: белый пенополиуретан применяют для</p>
+          </div>
+        </article>
+        <!-- news-box -->
+
+        <article class="news-box cf row">
+          <div class="row_5 news-box-img">
+            <a href="article.html" class="news-box-img-link" style="background:url('images/blog-img.png') center center/cover no-repeat"></a>
+          </div>
+          <div class="row_5 fr news-box-info">
+            <h1 class="news-box-article-title ">
+              <a class="box-article-title-link smooth gl-title">Покупка дивана для дачи</a>
+            </h1>
+            <p class="news-box-desc smooth">Основным настилочным материалом при изготовлении мягкого элемента является пенополиуретан (ППУ), который имеет разную плотность и рассчитан на разные нагрузки. Разные марки ППУ применяются в разных частях дивана, например: белый пенополиуретан применяют для</p>
+          </div>
+        </article>
+        <!-- news-box -->
+
+      </div>
+      <!-- news-boxes-carousel -->
+    </section>
+    <!-- news-boxes -->
+  </div>
+  <!-- news-boxes_ -->
+
+  <div class="row footer_">
+    <footer class="footer cf gl-inner">
+      <div class="foot-box link-box fl">
+        <h4 class="link-box-title foot-box-title">Название блока</h4>
+        <nav class="link-box-items">
+          <a href="" class="link-box-item link active">линк</a>
+          <a href="" class="link-box-item link">линк</a>
+          <a href="" class="link-box-item link">линк</a>
+          <a href="" class="link-box-item link">линк</a>
+          <a href="" class="link-box-item link">линк</a>
+        </nav>
+      </div>
+      <!-- foot-box -->
+      <div class="foot-box link-box fl">
+        <h4 class="link-box-title foot-box-title">Название блока</h4>
+        <nav class="link-box-items">
+          <a href="" class="link-box-item link">линк</a>
+          <a href="" class="link-box-item link">линк</a>
+          <a href="" class="link-box-item link">линк</a>
+          <a href="" class="link-box-item link">линк</a>
+          <a href="" class="link-box-item link">линк</a>
+        </nav>
+      </div>
+      <!-- foot-box -->
+      <div class="foot-box link-box fl">
+        <h4 class="link-box-title foot-box-title">Название блока</h4>
+        <nav class="link-box-items">
+          <a href="" class="link-box-item link">линк</a>
+          <a href="" class="link-box-item link">линк</a>
+          <a href="" class="link-box-item link">линк</a>
+          <a href="" class="link-box-item link">линк</a>
+          <a href="" class="link-box-item link">линк</a>
+        </nav>
+      </div>
+      <!-- foot-box -->
+
+      <div class="row4 fr subscribe-box cf">
+        <h4 class="subscribe-box-title foot-box-title">Подпишитесь на рассылку новостей</h4>
+        <div class="subscribe-form fr">
+          <form action="">
+            <div class="subscribe-inputs_ gl-border rel">
+              <input type="text" class="gl-border subscribe-txt" placeholder='Ваш e-mail'>
+              <button type="submit" class="subscribe-submit abs"></button>
+            </div>
+            <!-- subscribe-inputs_ -->
+          </form>
+        </div>
+        <!-- subscribe-form -->
+      </div>
+      <!-- subscribe-box -->
+
+      <div class="post-foot cf cb">
+        <div class="row_4 copyinfo_">
+          <a href="" class="copy-site-link">Gardenofeden </a>
+          <date class="copy-date">&amp; 2014</date>
+          <span class="copy txt">| Все права защищены</span>
+        </div>
+        <!-- copyinfo -->
+        <aside class="contact-box row_5 fr">
+          <div class="soc-boxes_  foot-mini-box fr">
+            <a href="" class="soc-box vk opa"></a>
+            <a href="" class="soc-box fb opa"></a>
+            <a href="" class="soc-box tw opa"></a>
+            <a href="" class="soc-box ig opa"></a>
+          </div>
+
+          <a href="" class="site-email site-email-foot foot-mini-box fr">info@gardenofeden.com</a>
+          <a href="" class="site-phone site-phone-foot foot-mini-box">8 800 544-67-76  </a>
+          <!-- soc-boxes -->
+        </aside>
+        <!-- contact-box -->
+      </div>
+      <!-- post-foot -->
+    </footer>
+  </div>
+
+
+  <div id="mod-fast-call" class="inset-block filled animated">
+    <h3>Заказ обратного звонка</h3>
+    <div class="errors"></div>
+    <fieldset>
+      <label for="cb-phone">Перезвоните мне на номер</label>
+      <input type="text" size="30" id="cb-phone" name="cb-phone" class="required txt" required tabindex="1" value="" />
+      <label for="cb-name">Меня зовут</label>
+      <input type="text" size="30" id="cb-name" name="cb-name" class="required txt" required tabindex="2" value="" />
+      <label for="cb-message">Комментарии:</label>
+      <textarea rows="8" cols="20" id="cb-message" name="cb-message" tabindex="3" noresize></textarea>
+
+      <form method="post" action="/client_account/feedback" id="mod-fast-call_form">
+        <div style="display:none;">
+          <input id="mod-fast-call_from" name="feedback[from]" type="text" size="30" value="call-me-back@asap.com">
+          <input type="hidden" value="true" name="feedback[dirtyemail]" id="dirtyemail" />
+          <textarea id="mod-fast-call_content" name="feedback[content]" rows="8" cols="50"></textarea>
+        </div>
+        <input name="commit" id="mod-fast-call_submit" type="button" class="button fl" tabindex="4" value="Отправить">
+        <input type="button" class="button fr" name="close" id="mod-fast-call-close" tabindex="4" value="Закрыть">
+      </form>
+    </fieldset>
+  </div>
+  <div id="opaco-mod-fast-call-link">
+    <!-- -->
+  </div>
+  <script type="text/javascript">
+  /* == POPUP == */
+
+  $(document).ready(function() {
+    $("#dirtyemail").remove();
+    var modCallMeBack = $("#mod-fast-call");
+    $("body").append($("div#opaco-mod-fast-call-link"), modCallMeBack);
+    $("#mod-fast-call-link, #mod-fast-call-close").click(function(e) {
+      e.preventDefault();
+      modCallMeBack.togglePopup();
+    });
+
+    jQuery.browser = {};
+    jQuery.browser.mozilla = /mozilla/.test(navigator.userAgent.toLowerCase()) && !/webkit/.test(navigator.userAgent.toLowerCase());
+    jQuery.browser.webkit = /webkit/.test(navigator.userAgent.toLowerCase());
+    jQuery.browser.opera = /opera/.test(navigator.userAgent.toLowerCase());
+    jQuery.browser.msie = /msie/.test(navigator.userAgent.toLowerCase());
+
+
+    $.fn.togglePopup = function() {
+      var popup = $(this);
+      //detect whether popup is visible or not
+      if (!popup.hasClass('slideInDown')) { //hidden - then display
+        if ($.browser.msie) { //when IE - fade immediately
+          $('#opaco-mod-fast-call-link').height($(document).height()).show().click(function() {
+            popup.togglePopup();
+          });
+        } else {
+          //in all the rest browsers - fade slowly
+          $('#opaco-mod-fast-call-link').height($(document).height()).show().fadeTo('slow', 0.7).click(function() {
+            popup.togglePopup();
+          });
+        }
+
+        popup.css({
+          'margin-left': -$(this).width() / 2 + 'px',
+          'margin-top': -$(this).height() / 2 + 'px'
+        }).removeClass(' slideOutUp').addClass('slideInDown').show();
+      } else { //visible - then hide
+        $('#opaco-mod-fast-call-link').hide().removeAttr('style').unbind('click');
+        popup.toggleClass('slideInDown slideOutUp');
+      }
+    };
+
+
+    /* CallMeBack */
+    $("#mod-fast-call_submit", modCallMeBack).bind("click", function(e) {
+      e.preventDefault();
+
+      var is_error = false;
+      var errors = $('#mod-fast-call .errors').html("");
+      var arr = [];
+
+      // проверка на дефолт
+      $("input.required, textarea.required", modCallMeBack).each(function() {
+        if (this.value == this.defaultValue) {
+          is_error = true;
+          arr.push("Поле '" + $(this).prev().text() + "' должно быть заполнено!");
+        }
+      });
+
+      if (is_error == true) {
+        modCallMeBackShowMessage(errors_to_arr(arr).join("<br />"), 5000);
+        return;
+      }
+      var message = "<h3>Пользователь просит перезвонить ему</h3>"
+      message += "\nИмя: " + $("#cb-name", modCallMeBack).val();
+      message += "\nТелефон: " + $("#cb-phone", modCallMeBack).val();
+      message += "\nСообщение: " + $("#cb-message", modCallMeBack).val();
+      $("#mod-fast-call_content", modCallMeBack).val(message);
+
+      var form = $('#mod-fast-call_form', modCallMeBack);
+      var fields = form.serialize();
+      $.ajax({
+        url: form.attr('action') + '.json',
+        type: 'post',
+        data: fields,
+        dataType: 'json',
+        beforeSend: function() {
+          show_preloader();
+        },
+        complete: function() {},
+        success: function(response) {
+          if (response.status == 'ok') {
+            $("textarea#mod-fast-call_content, #cb-message", modCallMeBack).val("");
+            modCallMeBack.togglePopup();
+            modCallMeBackShowMessage('<strong>Спасибо! </strong><br />В ближайшее время наш менеджер<br />свяжется&nbsp;с&nbsp;вами.', 3000);
+          } else {
+            modCallMeBackShowMessage(errors_to_arr(response['errors']).join("<br />"), 5000);
+          }
+        }
+      });
+    });
+  });
+
+  function modCallMeBackShowMessage(text, time) {
+    var delay = 1000;
+    if (arguments.length > 1) {
+      delay = time;
+    }
+    show_preloader();
+    set_preloaders_message('<div id="add_product_notification">' + text.replace(" ", "&nbsp;") + '</div>');
+    changeCss(jQuery("#own_preloader"));
+    window.setTimeout(hide_preloader, delay);
+  }
+  </script>
+
+  <style type="text/css">
+  /* Pop-up message and fading background */
+  #mod-fast-call {
+    position: fixed;
+    left:50%;
+    top:50%;
+    width:400px;
+    z-index: 8810;
+    display:none;
+    padding:17px;
+  }
+  #mod-fast-call fieldset {
+    border: none;
+  }
+  #mod-fast-call h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  #mod-fast-call .errors {
+    color:#900;
+  }
+  #mod-fast-call label {
+    display:block;
+    margin:10px 0 3px;
+    color: #5A3211;
+  }
+  #mod-fast-call input.txt {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 3px #DFD7C7;
+    color: #5A3211;
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    margin-bottom: 8px;
+    padding: 0 2%;
+    width: 96%;
+  }
+  #mod-fast-call button {
+    width:49%;
+    cursor:pointer;
+    cursor:hand;
+    border: 0;
+    background: #307EAA;
+    font-family:'PT Sans Narrow', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 6px 0;
+    font-size: 16px;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+  }
+  #mod-fast-call button#mod-fast-call-close {
+    width:29%;
+    float:right;
+    background: #F0851B;
+  }
+  #mod-fast-call textarea {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 3px #DFD7C7;
+    color: #5A3211;
+    display: block;
+    height: 90px;
+    margin-bottom: 8px;
+    padding: 0 2%;
+    width: 96%;
+  }
+  #mod-fast-call_submit {
+    float: left;
+    display: inline;
+  }
+  #mod-fast-call .button:hover {
+    opacity: 0.8;
+  }
+  #opaco-mod-fast-call-link {
+    background-color: #000000;
+    left: 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    /* IE8 */
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+    /* IE5+ */
+    filter: alpha(opacity=70);
+    /* IE4- */
+    moz-opacity: 0;
+    /* Mozilla */
+    -khtml-opacity: 0;
+    /* Safari */
+    opacity: 0;
+    /* general CSS3 */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 8000;
+  }
+  </style>
+
+</body>
+
+</html>
